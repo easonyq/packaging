@@ -102,7 +102,7 @@ jobs:
   - task: GithubRelease@0
     displayName: 'upload package'
     inputs:
-      gitHubConnection: github_ashkulz
+      gitHubConnection: easonyq
       repositoryName: wkhtmltopdf/packaging
       action: edit
       target: '$(Build.SourceVersion)'
@@ -136,7 +136,7 @@ jobs:
   - task: GithubRelease@0
     displayName: 'upload package'
     inputs:
-      gitHubConnection: github_ashkulz
+      gitHubConnection: easonyq
       repositoryName: wkhtmltopdf/packaging
       action: edit
       target: '$(Build.SourceVersion)'
@@ -175,7 +175,7 @@ jobs:
   - task: GithubRelease@0
     displayName: 'upload package'
     inputs:
-      gitHubConnection: github_ashkulz
+      gitHubConnection: easonyq
       repositoryName: wkhtmltopdf/packaging
       action: edit
       target: '$(Build.SourceVersion)'
@@ -213,7 +213,7 @@ jobs:
   - task: GithubRelease@0
     displayName: 'upload package'
     inputs:
-      gitHubConnection: github_ashkulz
+      gitHubConnection: easonyq
       repositoryName: wkhtmltopdf/packaging
       action: edit
       target: '$(Build.SourceVersion)'
