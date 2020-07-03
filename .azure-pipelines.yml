@@ -17,8 +17,6 @@ jobs:
     matrix:
       win64:
         target: msvc2015-win64
-      win32:
-        target: msvc2015-win32
   timeoutInMinutes: 0
   steps:
   - script: |
