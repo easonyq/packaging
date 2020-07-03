@@ -298,7 +298,7 @@ def main():
     vagrant.add_argument('target',  help='target to use for compilation')
     vagrant.add_argument('src_dir', help='directory which has wkhtmltopdf source code')
     vagrant.add_argument('--clean', action='store_true', default=False, help='perform clean build')
-    vagrant.add_argument('--debug', action='store_true', default=False, help='compile in debug mode')
+    vagrant.add_argument('--debug', action='store_true', default=True, help='compile in debug mode')
     vagrant.add_argument('--version', nargs=2, metavar=('VER', 'ITER'), help='version to use when packaging inside VM')
     vagrant.add_argument('--iteration', metavar='RELITER', default='1', help='iteration for release builds')
     vagrant.set_defaults(func=build_vagrant)
