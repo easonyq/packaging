@@ -34,7 +34,7 @@ jobs:
     displayName: 'upload package'
     inputs:
       gitHubConnection: easonyq
-      repositoryName: wkhtmltopdf/packaging
+      repositoryName: easonyq/packaging
       action: edit
       target: '$(Build.SourceVersion)'
       tagSource: manual
